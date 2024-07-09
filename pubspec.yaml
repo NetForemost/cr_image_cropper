@@ -1,0 +1,21 @@
+name: cr_image_cropper
+description: Flutter package for cropping an image and compressing it if its size is too big.
+version: 1.2.1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # BSD-3-Clause
+  flutter_native_image: ^0.0.6+1
+  # BSD-3-Clause
+  image_cropper: ^5.0.1
+  # Apache-2.0
+  image_picker: ^0.8.7+5
+  # MIT
+  file_picker: ^8.0.3
